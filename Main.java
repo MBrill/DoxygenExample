@@ -38,9 +38,10 @@ public class Main {
 }
 
 /*!
- * \mainpage Beispiel eines GitHub-Projekts mit Doxygen-Kommentare für Jenkins
+ * \mainpage Beispiel eines GitHub-Projekts mit Doxygen-Kommentare
  * 
  * Dies ist die Hauptseite der mit Doxygen erzeugten HTML-Dokumentation.
+ Diese Seiten werden als Github-Pages angezeigt und in einer GitHub Action erzeugt!
  * 
  * Dieser Text befindet sich in der Datei Main.java.
  */
