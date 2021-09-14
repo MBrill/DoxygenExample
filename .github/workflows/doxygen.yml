@@ -10,15 +10,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # Create HTML
     - name: Checkout the sources
     - uses: actions/checkout@v2
-    # Call doxygen
     - name: Create html pages
     - uses: mattnotmitt/doxygen-action@1.3.1
       with:
         doxyfile-path: './Doxyfile'
-    # Deploy the pages using github pages
     - name: Deploy HTML pages
     - uses: peaceiris/actions-gh-pages@v3
       if: ${{ github.ref == 'refs/heads/main' }}
